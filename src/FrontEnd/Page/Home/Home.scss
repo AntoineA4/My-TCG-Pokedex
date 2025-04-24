@@ -1,0 +1,39 @@
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 2rem;
+  
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+  
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      background-color: #5c6bc0;
+      color: white;
+      border: none;
+      border-radius: 0.7rem;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+  
+      &:hover {
+        background-color: #3f51b5;
+        transform: translateY(-2px);
+      }
+  
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
