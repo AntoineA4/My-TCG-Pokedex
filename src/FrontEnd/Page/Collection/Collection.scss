@@ -1,0 +1,24 @@
+.collectionPage {
+    display: flex;
+    flex-direction: row;
+    .sideBar {
+        display: flex;
+        flex-direction: column;
+        background-color: darkblue;
+        width: 20%;
+        height: 100vh;
+        .text {
+            color: bisque;
+            font-size: 20px;
+            text-decoration: none;
+            &:hover {
+                font-weight: bold;
+            }
+        };
+        
+    }
+    .collectionDisplay {
+        display: flex;
+        background-color: bisque;
+    }
+}
